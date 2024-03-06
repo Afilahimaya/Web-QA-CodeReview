@@ -1,5 +1,5 @@
-function number(n){
-    let i=1;
+function findOddEven(n){
+    let i=0;
     do{
         if(i % 2 ==0){
             console.log(i + " is Even");
@@ -8,4 +8,4 @@ function number(n){
         } i++;
     }while(i <= n);
 }
-number(10);
+findOddEven(10); 
